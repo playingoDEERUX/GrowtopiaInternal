@@ -169,6 +169,7 @@ void SendPacketHook(int a1, string a2, uint64_t a3) {
 		var.set("hash", utils::RTHash((unsigned char*)spoofedMac, 17));
 		var.set("hash2", utils::RTHash((unsigned char*)spoofedMac, 17));
 		var.set("country", "de");
+		var.set("game_version", "3.37"); // version spoof, please use 3.36 and you can still continue playing with this :)
 		var.remove("fz");
 		var.remove("rid");
 	    modifiedStringPacket = var.serialize();
