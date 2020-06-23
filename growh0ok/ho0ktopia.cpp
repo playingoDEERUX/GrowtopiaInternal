@@ -1,6 +1,6 @@
 // messy code, I know, this internal is very experimental and was only released due to private reasons. After months with this, and constant updating, I hope all "GT Internals" wont be the big thing anymore, despite the fact what has been done 2 me too, GTv3 leak, several other leaks like growbrew, lose of channel. I mean if they want me to leak shit, I'll do it in this case.
 // ~playingo
-// IF YOU PAID FOR AN INTERNAL OR WILLING TO PAY; IT'S AN ABSOLUTE SCAM!! THIS INTERNAL HAS MORE THAN ENOUGH FEATURES, A CORE ONE BEING AAP BYPASS!!!
+// IF YOU PAID FOR AN INTERNAL OR WILLING TO PAY; IT'S most likely not a great deal!! THIS INTERNAL HAS MORE THAN ENOUGH FEATURES, A CORE ONE BEING AAP BYPASS!!!
 // DO NOT BUY AN INTERNAL, YOU WILL SAVE MUCH MORE MONEY BY JUST LEARNING THIS CODE BASE AND ADDING YOUR OWN FEATURES TO IT
 // AND ABOUT THE ADDRESSES, I WILL BE RESPONSIBLE FOR UPDATING THEM AND ILL ENJOY DOING THAT :)
 // yet another tool, that i will regret that i published it, but I do not tolerate people who cause massive issues, making children advertise their GT Internal very brazenly
