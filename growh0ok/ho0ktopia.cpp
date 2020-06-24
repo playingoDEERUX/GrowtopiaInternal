@@ -42,12 +42,12 @@ typedef uintptr_t func(...);
 typedef void func2(int a1, string a2, uint64_t a3);
 
 // sig scan soon, for now ill just constantly update these and perhaps bring out a full tutorial on how to find them, completely bringing out the internal out of gt children's mind existence.
-#define Addr_LogToConsole 0x277040
-#define Addr_SendPacket 0x30FBB0
+#define Addr_LogToConsole 0x24FA00
+#define Addr_SendPacket 0x2E20A0
 #define Addr_SetFPSLimit 0x11060
-#define Addr_GetApp 0x9CC80
+#define Addr_GetApp 0x9E090
 #define Addr_GetClient 0x9C6C0
-#define Addr_SendPacketRaw 0x30FC30
+#define Addr_SendPacketRaw 0x2E2120
 #define Addr_LogWarningToConsole 0x26A3C0
 #define Addr_RequestJoinWorldCommon 0x2B31C0
 #define Addr_OnTextOverlay 0x1F3D40
