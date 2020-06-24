@@ -101,7 +101,7 @@ HANDLE pHandle; // just incase we would ever use external funcs;
 
 void ProcessTankUpdatePacketHook(int a1, BYTE* data) 
 {
-	DetourTransactionBegin();
+	/*DetourTransactionBegin();
 	DetourUpdateThread(GetCurrentThread());
 	DetourDetach(&(PVOID&)ptuphook, &ProcessTankUpdatePacketHook);
 	DetourTransactionCommit();
@@ -111,7 +111,7 @@ void ProcessTankUpdatePacketHook(int a1, BYTE* data)
 		cout << (int)data[i] << endl;
 	}
 
-	//ProcessTankUpdatePacket(a1, data);
+	//ProcessTankUpdatePacket(a1, data);*/
 }
 
 void SendPacketRawHook(int a1, void* data, int size, void* a4, uint64_t a5, int a6) 
@@ -397,7 +397,7 @@ BOOL APIENTRY DllMain(HMODULE hModule,
 		DetourAttach(&(PVOID&)ltchook, &LogToConsoleHook);
 		DetourAttach(&(PVOID&)sphook, &SendPacketHook);
 		DetourAttach(&(PVOID&)sprhook, &SendPacketRawHook);
-		//DetourAttach(&(PVOID&)ptuphook, &ProcessTankUpdatePacketHook);
+		//DetourAttach(&(PVOID&)ptuphook, &ProcessTankUpdatePacketHook); //removed for several reasons
 		DetourTransactionCommit();
 
 		CreateThread(nullptr, 0, (LPTHREAD_START_ROUTINE)MainThread, hModule, 0, nullptr);
