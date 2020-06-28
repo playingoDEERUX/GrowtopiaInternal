@@ -385,7 +385,7 @@ BOOL APIENTRY DllMain(HMODULE hModule,
 
 		DWORD oldprotect;
 		VirtualProtectEx(pHandle, (LPVOID)(mBase + 0x1F4983), 2, PAGE_EXECUTE_READWRITE, &oldprotect);
-		nop_((PVOID)(mBase + 0x1F4983), 2);
+		nop_((PVOID)(mBase + 0x1D30AE), 2);
 
 		ltchook = (mBase + Addr_LogToConsole);
 		sphook = (mBase + Addr_SendPacket);
