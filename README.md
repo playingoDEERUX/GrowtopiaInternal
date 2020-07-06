@@ -13,5 +13,5 @@ This internal has enough features, it is useless and completely visual to spend 
 
 UPDATE: Addresses updated to 3.37! You can now use the internal straight with latest version of Growtopia
 
-[NOTE: 3.38 released, but you can still use 3.37 with version bypass (just edit the game_version value to the latest version in source code)
+[NOTE: 3.38 released, but you can still use 3.37 with version bypass (just edit the game_version value to the latest version in source code) (UPDATE: it's being spoofed to "4.20" already, so you should have no problems at injecting this to a 3.37 growtopia client and still being able to play in servers)
 Download 3.37 here: https://anonfiles.com/b4neu0E4o9/GrowtopiaInstaller337_exe
